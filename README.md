@@ -6,9 +6,9 @@ A list of helpful Windows 10 Commands
 If some Windows functions aren't working or Windows crashes, use the System File Checker to scan Windows and restore your files.
 
 Terminal: *PowerShell*
-
-  $ DISM.exe /Online /Cleanup-image /Restorehealth
-  $ sfc /scannow
+    
+    * DISM.exe /Online /Cleanup-image /Restorehealth
+    * sfc /scannow
 
 **observation:** It's recommended to restart your system and run the commands again
 
