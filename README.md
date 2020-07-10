@@ -7,8 +7,8 @@ If some Windows functions aren't working or Windows crashes, use the System File
 
 Terminal: *PowerShell*
 
-$ DISM.exe /Online /Cleanup-image /Restorehealth
-$ sfc /scannow
+  $ DISM.exe /Online /Cleanup-image /Restorehealth
+  $ sfc /scannow
 
 **observation:** It's recommended to restart your system and run the commands again
 
