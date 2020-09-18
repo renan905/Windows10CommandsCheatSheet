@@ -14,3 +14,8 @@ Terminal: *PowerShell*
 
 reference: [https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system]
 
+## WSL
+
+   Version Check 
+   * wls -l -v
+
