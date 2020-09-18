@@ -16,6 +16,11 @@ reference: [https://support.microsoft.com/en-us/help/929833/use-the-system-file-
 
 ## WSL
 
-   Version Check 
-   * wls -l -v
+    Version Check 
+    * wls -l -v
 
+    Set WSL 2 as default
+    wsl --set-default-version 2
+    
+    Convert Ubuntu on WSL 1 to WSL 2
+    wsl.exe --set-version Ubuntu 2
