@@ -26,3 +26,8 @@ reference: [https://support.microsoft.com/en-us/help/929833/use-the-system-file-
 
 ## WSL2 Kernel Update
 https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
+
+
+#Motherboard MAX RAM
+wmic memphysical get maxcapacity
