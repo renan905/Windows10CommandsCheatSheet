@@ -29,5 +29,5 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
 
 
-#Motherboard MAX RAM
+# Motherboard MAX RAM
 wmic memphysical get maxcapacity
