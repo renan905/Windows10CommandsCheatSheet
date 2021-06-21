@@ -31,3 +31,15 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 
 # Motherboard MAX RAM
 wmic memphysical get maxcapacity
+
+
+# Add Git Bash to Windows Terminal
+```
+{
+    "guid": "{00000000-0000-0000-ba54-000000000002}",
+    "commandline": "%PROGRAMFILES%/git/usr/bin/bash.exe -i -l",
+    "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
+    "name" : "Bash",
+    "startingDirectory" : "%USERPROFILE%"
+}
+```
